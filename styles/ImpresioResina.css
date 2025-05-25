@@ -1,0 +1,172 @@
+body,
+button {
+  font-family: "Jura", serif;
+}
+.primer {
+  width: 100%;
+  height: 20%;
+}
+#fondoimg {
+  background-image: url(../img/Resina/92477-impresora-3d-resina-liquida-terminator-2.webp);
+  background-position: right;
+  background-size: 60%;
+  background-repeat: no-repeat;
+  height: 530px;
+}
+#fondocolor {
+  width: 100%;
+  background: linear-gradient(to right, #2b2b2b 45%, rgba(0, 0, 0, 0));
+}
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 55%;
+  height: 100%;
+  padding-top: 50px;
+}
+#img1 {
+  width: 60%;
+  margin-right: 5px;
+  margin-left: 45px;
+}
+#part1 {
+  width: 60%;
+}
+#img1 img {
+  width: 80%;
+}
+#part1 img {
+  width: 60px;
+  margin-right: 10px;
+}
+#part1 h1 {
+  font-size: 48px;
+  margin: 0;
+}
+#part1 span {
+  color: #8c8c8c;
+  font-weight: 400;
+}
+#part1 p {
+  font-size: 32px;
+  width: 140%;
+}
+#part1 h2 {
+  font-size: 48px;
+  margin: 20px 0;
+  font-weight: 600;
+}
+.slogan {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+#segon {
+  background-color: #1b1b1b;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 0;
+}
+#segon h1 {
+  margin: 0;
+  font-size: 48px;
+  text-align: center;
+  padding: 0 0 20px 0;
+  font-weight: 600;
+}
+#segon p {
+  width: 80%;
+  text-align: center;
+  font-size: 36px;
+  margin: 0 auto;
+  padding: 15px;
+}
+
+#tercer {
+  width: 100%;
+  height: 950px;
+  background-color: #2b2b2b;
+}
+#separar2 {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  justify-content: center;
+  padding: 4%;
+  gap: 80px;
+}
+#tercer h1 {
+  font-size: 45px;
+  text-align: center;
+  margin: 0;
+  padding: 20px;
+}
+
+#img2 {
+  width: 35%;
+  height: 750px;
+  border-radius: 40px;
+  background-image: url(../img/Resina/Impresora3dresina.webp);
+  background-position: center;
+  background-size: cover;
+}
+#text1 {
+  width: 45%;
+  font-size: 36px;
+  padding-top: 0;
+  margin-top: 0;
+}
+#text1 button {
+  background-color: white;
+  color: black;
+  width: 80%;
+  height: 50px;
+  border-radius: 20px;
+  font-size: 30px;
+  border: none;
+  margin-top: 50px;
+}
+#text1 button span {
+  font-weight: bold;
+}
+#textsegon {
+  padding-top: 30px;
+}
+#textercer {
+  padding-top: 30px;
+}
+
+#quart {
+  background-color: #1b1b1b;
+}
+#img3 {
+  width: 50%;
+  border-radius: 40px;
+  background-image: url(../img/Resina/fdce14c0b1f19cfb.webp);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#textprimer {
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+}
+#precio {
+  background-color: #2b2b2b;
+  width: 75%;
+  border-radius: 75px;
+  text-align: center;
+  padding: 20px;
+  margin: 0 auto;
+}
+#precio h2 {
+  font-size: 48px;
+}
+#precio h1 {
+  font-size: 128px;
+  margin: 0;
+  font-weight: 400;
+}

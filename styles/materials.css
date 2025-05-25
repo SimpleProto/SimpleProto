@@ -1,0 +1,143 @@
+body,
+button {
+  font-family: "Jura", serif;
+}
+#primer1 {
+  background-image: url(../img/materials/kadir-celep-HsefvbLbNWc-unsplash.webp);
+  background-size: 100%;
+  background-position: top;
+  background-repeat: no-repeat;
+}
+#fondoimg {
+  height: 250px;
+  background-color: #2b2b2b;
+}
+.slogan {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+  gap: 14px;
+}
+.slogan img {
+  width: 60px;
+  margin-top: 100px;
+}
+.slogan h1 {
+  font-size: 48px;
+  margin: 0;
+  margin-top: 100px;
+}
+.slogan span {
+  color: #8c8c8c;
+  font-weight: 400;
+}
+#segon {
+  background-color: #1b1b1b;
+  width: 100%;
+  height: 400px;
+  justify-content: center;
+  align-items: center;
+}
+
+#segon h1 {
+  margin: 0;
+  font-size: 48px;
+  text-align: center;
+  padding: 40px;
+  font-weight: 600;
+}
+#segon p {
+  width: 70%;
+  text-align: center;
+  font-size: 32px;
+  margin: 0 auto;
+  padding: 15px;
+}
+
+.separar {
+  background-color: #3c3c3c;
+  display: flex;
+  justify-content: space-between;
+  gap: 5px;
+}
+
+.esq {
+  width: 35%;
+  height: 800px;
+  background-image: url(../img/materials/kadir-celep-HsefvbLbNWc-unsplash.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-right: 10px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  border-radius: 0 35px 35px 0;
+}
+.drt {
+  width: 60%;
+  height: 800px;
+  margin-left: 10px;
+  background-color: #1b1b1b;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  border-radius: 35px 0 0 35px;
+  text-align: center;
+  justify-content: center;
+}
+.drt h2 {
+  margin: 0;
+  font-size: 48px;
+  padding: 10px;
+}
+.drt p {
+  font-size: 32px;
+  padding: 10px;
+}
+.drt img {
+  width: 25%;
+}
+.fils {
+  width: 60%;
+  background-color: #2b2b2b;
+  margin: 0 auto;
+  border-radius: 35px;
+}
+.fils img {
+  margin: 20px;
+}
+
+.drt2 {
+  width: 60%;
+  height: 800px;
+  background-color: #1b1b1b;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  border-radius: 0 35px 35px 0;
+  text-align: center;
+  justify-content: center;
+}
+.drt2 h2 {
+  margin: 0;
+  font-size: 48px;
+  padding: 10px;
+}
+.drt2 p {
+  font-size: 32px;
+  padding: 10px;
+}
+.drt2 img {
+  width: 25%;
+}
+.esq2 {
+  width: 35%;
+  height: 800px;
+  background-image: url(../img/materials/Impresora3dresina.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  border-radius: 35px 0 0 35px;
+}

@@ -1,0 +1,48 @@
+body, button{
+    font-family: "Jura", serif;
+}
+.slogan{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    gap: 14px;
+}
+.slogan img{
+    width: 60px;
+    margin-top: 100px;
+}
+.slogan h1{
+    font-size: 48px;
+    margin: 0;
+    margin-top: 100px;
+}
+.slogan span{
+    color: #8c8c8c;
+    font-weight: 400;
+}
+#priv{
+    background-color: #3b3b3b;
+    padding: 20px;
+}
+#priv h3{
+    font-size: 40px;
+    font-weight: bold;
+    width: 80%;
+}
+#priv p{
+    font-size: 30px;
+    width: 80%;
+}
+#priv ul li{
+    font-size: 30px;
+    width: 80%;
+}
+#llista2{
+    margin-bottom: 0;
+}
+h2{
+    font-size: 48px;
+    text-align: center;
+}

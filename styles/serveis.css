@@ -1,0 +1,119 @@
+body,
+button {
+  font-family: "Jura", serif;
+}
+.images img {
+  width: 40%;
+}
+.separar1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #1b1b1b;
+  height: 400px;
+  text-align: left;
+  padding: 1% 5%;
+}
+
+.text {
+  width: 50%;
+  padding-right: 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.text h2 {
+  margin-bottom: 10px;
+}
+
+.text p {
+  width: 100%;
+}
+
+.text button {
+  width: 80%;
+  background-color: white;
+  color: black;
+  border-radius: 25px;
+  height: 45px;
+  border: none;
+  margin-top: 10px;
+  font-size: 32px;
+}
+
+.text button span {
+  font-weight: bold;
+}
+
+.images {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+
+.images img {
+  max-width: 100%;
+  height: auto;
+}
+
+.separar2 {
+  display: flex;
+  align-items: center; /* Centra los elementos verticalmente */
+  justify-content: center; /* Centra los elementos horizontalmente */
+  background-color: #3b3b3b;
+  height: 400px;
+  padding: 1% 5%;
+}
+
+.text2 {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end; /* Alinea todo el contenido a la derecha */
+  text-align: right; /* Alinea el texto a la derecha */
+}
+
+.text2 h2 {
+  margin-bottom: 10px;
+}
+
+.text2 p {
+  width: 80%; /* Ajusta el ancho del párrafo */
+}
+.text2 span {
+  font-weight: bold;
+}
+
+.text2 button {
+  width: 80%;
+  background-color: white;
+  color: black;
+  border-radius: 25px;
+  height: 45px;
+  border: none;
+  margin-top: 10px;
+  font-size: 32px;
+}
+
+.text2 button span {
+  font-weight: bold;
+}
+
+.images {
+  width: 50%;
+  display: flex;
+  justify-content: center; /* Centra la imagen dentro de su contenedor */
+}
+
+.images img {
+  max-width: 100%;
+  height: auto; /* Mantiene la proporción de la imagen */
+}
+
+article h2 {
+  font-size: 42px;
+}
+article p {
+  font-size: 32px;
+}

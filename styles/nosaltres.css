@@ -1,0 +1,129 @@
+body,
+button {
+  font-family: "Jura", serif;
+}
+#primer {
+  background-color: #2b2b2b;
+  height: 700px;
+}
+.slogan {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+  gap: 14px;
+}
+.slogan img {
+  width: 60px;
+  margin-top: 100px;
+}
+.slogan h1 {
+  font-size: 48px;
+  margin: 0;
+  margin-top: 100px;
+}
+.slogan span {
+  color: #8c8c8c;
+  font-weight: 400;
+}
+#inf {
+  margin-top: 40px;
+}
+#inf h1 {
+  font-size: 48px;
+  margin: 0;
+  text-align: center;
+  margin-bottom: 30px;
+}
+#inf span {
+  color: #8c8c8c;
+  font-weight: 400;
+}
+#inf p {
+  font-size: 30px;
+  width: 70%;
+  text-align: center;
+  margin: 0 auto;
+  padding: 10px;
+}
+#missio {
+  background-color: #1b1b1b;
+}
+.dividir {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+#missio1 {
+  width: 60%;
+  font-size: 30px;
+  margin: 10px;
+  text-align: center;
+}
+#text1 {
+  padding-top: 20px;
+}
+#text2 {
+  padding-top: 40px;
+}
+#text3 {
+  padding-top: 40px;
+}
+#misio2 img {
+  width: 75%;
+  margin: 20px;
+}
+#img1 {
+  text-align: center;
+}
+#img2 {
+  width: 100%;
+  text-align: center;
+}
+#img2 img {
+  width: 30%;
+  justify-content: center;
+}
+#equip {
+  background-color: #2b2b2b;
+  height: 800px;
+}
+#equip h1 {
+  margin: 0;
+  text-align: center;
+  padding: 20px;
+  font-size: 48px;
+}
+#treballadors {
+  display: flex;
+  flex-wrap: wrap;
+  width: 60%;
+  justify-content: space-between;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+.treballador {
+  text-align: center;
+  font-size: 30px;
+}
+.treballador img {
+  border-radius: 50%;
+  width: 70%;
+}
+#contacta {
+  background-color: #1b1b1b;
+  height: 200px;
+  text-align: center;
+}
+#contacta button {
+  margin-top: 50px;
+  text-align: center;
+  width: 50%;
+  height: 70px;
+  font-size: 30px;
+  border-radius: 50px;
+}
+#contacta button span {
+  font-weight: bold;
+}
