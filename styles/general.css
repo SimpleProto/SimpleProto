@@ -15,6 +15,12 @@ a {
   justify-content: center;
 }
 
+/* This class can be toggled on dark mode */
+.dark-mode-img {
+  filter: brightness(0.2) contrast(1.2) saturate(0.8);
+  transition: filter 0.3s ease;
+}
+
 /* menu */
 body aside div.flex {
   flex-direction: row;
@@ -196,11 +202,14 @@ footer p {
   color: #1b1b1b !important;
   background-color: #ffffff !important;
 }
-.temaclaro2,
-.temaclaro2 h1 {
+.temaclaro2 {
   transition: all 0.5s;
   color: #1b1b1b !important;
   background-color: #f0f0f0 !important;
+}
+.temaclaro2 h1 {
+  transition: all 0.5s;
+  color: #1b1b1b !important;
 }
 .temaclaroinner {
   background-color: #ffffff !important;
