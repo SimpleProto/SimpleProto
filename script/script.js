@@ -9,8 +9,13 @@ $(function () {
 
   /* Tema */
   $("img#tema").click(function () {
-    $("header, #primer, #tercer, footer, #cinque").toggleClass("temaclaro");
+    $("header, #primer, #tercer, footer, #cinque, #sise .flex div").toggleClass(
+      "temaclaro"
+    );
     $("header, #primer, #tercer, footer").toggleClass("temaclarospan");
+    $('img[src="img/logo/Logowhite.webp"], header img, #2dimg img').toggleClass(
+      "dark-mode-img"
+    );
     $("#segon, #quart, #sise").toggleClass("temaclaro2");
     $("#segon div div").toggleClass("temaclaroinner");
     $("#quart div").toggleClass("temaclaroinner2");
