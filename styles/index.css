@@ -237,10 +237,10 @@ button {
     font-size: 16;
   }
   #oscur {
-    height: 500px;
+    height: 100%;
   }
   #banner {
-    height: 500px;
+    height: 100vh;
   }
   #principal span {
     margin-top: 40px;
@@ -387,11 +387,11 @@ button {
   }
 
   #oscur {
-    height: 450px;
+    height: 100%;
   }
 
   #banner {
-    height: 450px;
+    height: 100vh;
   }
 
   #principal span {
